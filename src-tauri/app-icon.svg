@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#0d9488"/>
+    </linearGradient>
+  </defs>
+  <rect x="48" y="48" width="928" height="928" rx="210" fill="url(#bg)"/>
+  <!-- Cây chổi, nghiêng như đang quét -->
+  <g transform="rotate(-35 512 512)">
+    <rect x="480" y="120" width="64" height="440" rx="32" fill="#ffffff"/>
+    <rect x="418" y="530" width="188" height="72" rx="20" fill="#fcd34d"/>
+    <path d="M424 602 H600 L688 846 Q512 902 336 846 Z" fill="#ffffff"/>
+    <path d="M462 650 L428 830 M512 650 V852 M562 650 L596 830" stroke="#93c5fd" stroke-width="22" stroke-linecap="round"/>
+  </g>
+  <!-- Lấp lánh: máy đã sạch -->
+  <path d="M770 150 L800 236 L886 266 L800 296 L770 382 L740 296 L654 266 L740 236 Z" fill="#fef3c7"/>
+  <path d="M250 600 L268 652 L320 670 L268 688 L250 740 L232 688 L180 670 L232 652 Z" fill="#fef3c7"/>
+  <path d="M880 470 L892 504 L926 516 L892 528 L880 562 L868 528 L834 516 L868 504 Z" fill="#fef3c7"/>
+</svg>

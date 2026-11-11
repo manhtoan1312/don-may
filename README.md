@@ -40,6 +40,10 @@ npm run tauri build    # tạo bộ cài trong src-tauri/target/release/bundle
 cd src-tauri && cargo test   # chạy test
 ```
 
+Bộ cài nằm ở `src-tauri/target/release/bundle/nsis/`. Bộ cài này cài riêng cho tài khoản đang dùng, không cần quyền Administrator.
+
+**Đổi icon:** sửa `src-tauri/app-icon.svg`, chạy `npm run tauri icon src-tauri/app-icon.svg`, xóa hai thư mục `icons/android` và `icons/ios`. Sau đó **chạm vào `src-tauri/build.rs`** (sửa và lưu lại, hoặc đổi thời gian sửa đổi của file) trước khi build. Nếu không, cargo dùng lại tài nguyên cũ và file exe vẫn mang icon cũ.
+
 Muốn dọn hết rác của Windows (`C:\Windows\Temp`, Windows Update) thì chạy app bằng quyền Administrator.
 
 ## Cấu trúc
